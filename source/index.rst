@@ -11,9 +11,6 @@ Robotics Core Workshop Documentation
 .. documentation for details.
 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
 
  
 
@@ -27,6 +24,12 @@ Find out in this brief overview below
 
 At the end of the workshop, you'll have:
 -----------------
+
+**A Certificate of Training certified by:**
+
+- Aurora Robotics, Nigeria 🇳🇬
+- Volts Technologies, Kuwait 🇰🇼
+- Regalia Marine, Nigeria 🇳🇬
 
 1. **Strong Theoretical Foundations**  
    Understand the mathematics and principles behind robotics, not just how to use tools, but how to innovate.
@@ -57,6 +60,12 @@ At the end of the workshop, you'll have:
 
 10. **Network & Community**  
     Be part of a growing robotics community through Aurora Robotics, connecting with like-minded innovators.
+
+Prerequistes:
+-----------------
+
+1. A laptop (Any Operating System, but preferably linux)
+2. Software Installations will be done in the first week so don't worry about the software you will need.
 
 .. raw:: html
 
@@ -100,3 +109,10 @@ Workshop Schedule
    :alt: tt
 
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   :hidden:
+
+   week1

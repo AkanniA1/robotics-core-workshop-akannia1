@@ -1,0 +1,200 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week 1: Introduction to Robotics &mdash; Robotics Core Workshop 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=a6a68382" />
+      <link rel="stylesheet" type="text/css" href="_static/fonts.css?v=5583d106" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=8d563738"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Robotics Core Workshop Documentation" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Robotics Core Workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 1: Introduction to Robotics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#foundations">Foundations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#kinematics">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dynamics-and-control">Dynamics and Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#perception-and-planning">PERCEPTION AND PLANNING</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#artificial-intelligence-ai">Artificial Intelligence (AI)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-they-all-work-together">How They All Work Together</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Robotics Core Workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Week 1: Introduction to Robotics</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/week1.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="week-1-introduction-to-robotics">
+<h1>Week 1: Introduction to Robotics<a class="headerlink" href="#week-1-introduction-to-robotics" title="Link to this heading"></a></h1>
+<img alt="porfolio1" src="_images/roadmap.png" />
+<section id="foundations">
+<h2>Foundations<a class="headerlink" href="#foundations" title="Link to this heading"></a></h2>
+<p>Think of this roadmap like you are building a house – each stage builds on the previous ones.</p>
+<p><strong>What it is:</strong> The basic tools and knowledge you need before building any robot.</p>
+<p><strong>Real-world applications:</strong></p>
+<ul class="simple">
+<li><p><strong>Math &amp; Physics:</strong> When a delivery drone needs to calculate how much battery power it needs to fly 5 miles against a 15 mph wind, that’s math and physics in action.</p></li>
+<li><p><strong>Programming:</strong> Writing the code that tells a vacuum robot “when you hit a wall, turn right and keep cleaning”.</p></li>
+<li><p><strong>Data Analysis:</strong> A farming robot analyzing soil moisture data from hundreds of sensors to decide where to water crops.</p></li>
+</ul>
+<p>Think of foundations like learning to drive – you need to understand the basics (steering wheel turns the car, brake pedal stops it) before you can navigate traffic.</p>
+</section>
+<section id="kinematics">
+<h2>Kinematics<a class="headerlink" href="#kinematics" title="Link to this heading"></a></h2>
+<p>What it is: Understanding how robot parts move and where they end up.
+Real-world applications:</p>
+<ul class="simple">
+<li><p><strong>Forward Kinematics:</strong> A robotic arm in a factory knows “if I bend joint 1 by 30°, joint 2 by 45°, and extend joint 3 by 6 inches, my hand will reach exactly where the car part needs to be welded”</p></li>
+<li><p><strong>Inverse Kinematics:</strong> A surgical robot figures out “I need to reach this exact spot inside the patient - what angles do all my joints need to be at?”</p></li>
+<li><p><strong>Everyday example:</strong> When you see a robot bartender making drinks, it’s using kinematics to know exactly how to move its arm so the bottle pours into the glass, not on the counter</p></li>
+</ul>
+<p>This is like being able to reach for your coffee cup without looking - your brain automatically calculates the arm movements needed.</p>
+</section>
+<section id="dynamics-and-control">
+<h2>Dynamics and Control<a class="headerlink" href="#dynamics-and-control" title="Link to this heading"></a></h2>
+<p><strong>Dynamics</strong></p>
+<p>Understanding all the forces acting on a robot and how they affect movement.
+Real-world applications:</p>
+<ul class="simple">
+<li><p><strong>Gravity effects:</strong> A robotic arm lifting heavy car parts must generate enough torque to overcome gravity pulling the part down</p></li>
+<li><p><strong>Friction considerations:</strong> A walking robot’s feet need enough friction with the ground to push off without slipping, but warehouse robots need to account for how smooth floors reduce friction</p></li>
+<li><p><strong>External forces:</strong> A construction robot working outdoors must account for wind pushing against it while it operates</p></li>
+<li><p><strong>Mars rover example:</strong> Engineers must account for Mars’ lower gravity (38% of Earth’s) when programming how much force the wheels need to climb over rocks</p></li>
+</ul>
+<p><strong>Control</strong></p>
+<p>The systems that actively manage and adjust robot movements to achieve desired outcomes.
+Real-world applications:</p>
+<ul class="simple">
+<li><p><strong>Drone stabilization:</strong> When wind tries to push a drone sideways, control systems instantly adjust the propeller speeds to keep it hovering in place</p></li>
+<li><p><strong>Walking robots:</strong> A humanoid robot like Boston Dynamics’ Atlas uses control systems to maintain balance - when it steps on uneven ground, sensors detect the tilt and motors immediately adjust to prevent falling</p></li>
+<li><p><strong>Prosthetic limbs:</strong> Advanced prosthetics use control systems to provide just the right amount of grip force - strong enough to hold a hammer, gentle enough to hold an egg</p></li>
+<li><p><strong>Surgical precision:</strong> Control systems filter out surgeon hand tremors, scaling down movements for micro-surgery</p></li>
+</ul>
+<p>Think of dynamics as understanding the “physics problem” the robot faces, while control is actively solving that problem in real-time.</p>
+</section>
+<section id="perception-and-planning">
+<h2>PERCEPTION AND PLANNING<a class="headerlink" href="#perception-and-planning" title="Link to this heading"></a></h2>
+<p>What it is: Helping robots see, understand their environment, and plan their actions.
+Real-world applications:</p>
+<ul class="simple">
+<li><p><strong>Self-driving cars:</strong> The car’s cameras and sensors create a map of everything around it, identifies pedestrians, other cars, and traffic signs, then plans the safest route to your destination</p></li>
+<li><p><strong>Warehouse robots:</strong> Amazon’s robots scan barcodes, navigate between shelves, and plan the most efficient path to collect items for your order</p></li>
+<li><p><strong>Home robots:</strong> A robot vacuum maps your house, remembers where furniture is, and plans a cleaning pattern that covers every spot without getting stuck</p></li>
+<li><p><strong>Search and rescue:</strong> Robots in disaster zones use cameras to identify survivors, plan routes through rubble, and navigate back to safety</p></li>
+<li><p><strong>Mars rovers:</strong> NASA’s rovers analyze rock samples, identify interesting geological features, and plan multi-day journeys across alien terrain</p></li>
+</ul>
+<p>This is like being dropped in a new city - you need to figure out where you are, where you want to go, and the best route to get there while avoiding obstacles.</p>
+</section>
+<section id="artificial-intelligence-ai">
+<h2>Artificial Intelligence (AI)<a class="headerlink" href="#artificial-intelligence-ai" title="Link to this heading"></a></h2>
+<p>What it is: Making robots smart enough to make decisions and learn from experience.
+Real-world applications:</p>
+<ul class="simple">
+<li><p><strong>Personal assistants:</strong> Home robots learn your daily routine and automatically adjust temperature, lighting, and music preferences</p></li>
+<li><p><strong>Agricultural robots:</strong> Farm robots learn to identify ripe fruits vs. unripe ones, adjusting their harvesting strategy based on crop conditions</p></li>
+<li><p><strong>Security robots:</strong> Mall security robots learn normal vs. suspicious behavior patterns, automatically alerting human guards when something unusual happens</p></li>
+</ul>
+<p>This is like the difference between following a recipe exactly versus being an experienced chef who can improvise and adapt based on available ingredients and taste preferences.</p>
+</section>
+<section id="how-they-all-work-together">
+<h2>How They All Work Together<a class="headerlink" href="#how-they-all-work-together" title="Link to this heading"></a></h2>
+<p>Imagine a robot chef in a restaurant:</p>
+<ol class="arabic simple">
+<li><p><strong>Foundations:</strong> It knows basic cooking principles, can read recipes, and processes ingredient information</p></li>
+<li><p><strong>Kinematics:</strong> It calculates how to move its arms to chop vegetables at the right angles and speeds</p></li>
+<li><p><strong>Dynamics &amp; Control:</strong> It applies just the right pressure to slice tomatoes without crushing them, and maintains steady stirring motion</p></li>
+<li><p><strong>Perception &amp; Planning:</strong> It sees when onions are golden brown, smells when garlic is ready, and plans the timing so everything finishes simultaneously</p></li>
+<li><p><strong>AI:</strong> It learns that customers prefer their steaks cooked longer on rainy days, and automatically adjusts cooking times based on weather and customer history</p></li>
+</ol>
+<img alt="porfolio1" src="_images/area.png" />
+<img alt="porfolio1" src="_images/app.png" />
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Robotics Core Workshop Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Bakel-Bakel.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
