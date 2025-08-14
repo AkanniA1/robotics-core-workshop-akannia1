@@ -19,18 +19,69 @@ Robotics Core Workshop Documentation
 
 Is this workshop worth it?
 -----------------
+Find out in this brief overview below
+
+.. youtube:: KzGr6Osyh-w
+   :width: 640
+   :height: 360
+
+At the end of the workshop, you'll have:
+-----------------
+
+1. **Strong Theoretical Foundations**  
+   Understand the mathematics and principles behind robotics, not just how to use tools, but how to innovate.
+
+2. **Practical Coding Skills**  
+   Learn to translate robotics theory into working Python, C++, Rust and MATLAB programs.
+
+3. **Simulation Mastery**  
+   Build and test your robotics models in PyBullet, Gazebo, and ROS 2 environments.
+
+4. **Open-Source Contribution Experience**  
+   Contribute to a real, live robotics project and have it reflected in your GitHub activity.
+
+5. **Professional GitHub Portfolio**  
+   Weekly assignments pushed to GitHub to grow a presentable, industry-ready repository.
+
+6. **Problem-Solving Skills**  
+   Learn to break down complex robotics problems into theory, code, and implementation steps.
+
+7. **Industry Insight & Career Guidance**  
+   Participate in Wayforward Weekends for CV polishing, scholarship application tips, and industry trends.
+
+8. **Live Problem-Hacking Experience**  
+   Join Sidequest Sundays to watch and interact as I solve real, challenging robotics problems live.
+
+9. **Confidence to Innovate**  
+   Move beyond simply applying existing packages to creating your own algorithms and solutions.
+
+10. **Network & Community**  
+    Be part of a growing robotics community through Aurora Robotics, connecting with like-minded innovators.
+
 .. raw:: html
 
-    <iframe width="560" height="315"
-        src="https://youtu.be/KzGr6Osyh-w"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-    </iframe>
+    <a href="https://www.regaliamarine.com/aurora-robotics-training" target="_blank" style="text-decoration: none;">
+        <button style="padding: 12px 24px; background-color:rgb(0, 255, 34); color: black; border: none; border-radius: 6px; cursor: pointer; font-size: 18px;">
+            Register Now
+        </button>
+    </a>
 
 About The Tutor
 -----------------
+.. raw:: html
+
+    <div style="display: flex; gap: 10px;">
+        <a href="https://www.linkedin.com/in/bakel-bakel-6341a7150/" target="_blank" style="text-decoration: none;">
+            <button style="padding: 10px 20px; background-color: #0077B5; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+                LinkedIn
+            </button>
+        </a>
+        <a href="https://www.upwork.com/freelancers/bakel" target="_blank" style="text-decoration: none;">
+            <button style="padding: 10px 20px; background-color: #6fda44; color: black; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+                Upwork
+            </button>
+        </a>
+    </div>
 
 .. image:: _static/Aboutme1.png
    :alt: porfolio1
@@ -43,5 +94,9 @@ About The Tutor
 
 
 
+Workshop Schedule
+=================
+.. image:: _static/tt.png
+   :alt: tt
 
 
