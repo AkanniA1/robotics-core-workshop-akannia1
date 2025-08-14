@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Robotics Core Workshop documentation
+Robotics Core Workshop Documentation
 ====================================
 
 .. Add your content using ``reStructuredText`` syntax. See the
@@ -15,11 +15,33 @@ Robotics Core Workshop documentation
    :maxdepth: 2
    :caption: Contents:
 
-Robotics Overview
+ 
+
+Is this workshop worth it?
 -----------------
-What is Robotics Engineering?
-Robotics engineering is a multidisciplinary field including electrical, mechanical, and computer engineering. It deals with designing, building, operating, and engineering robots and robotic systems based on theoretical understanding and practical application.
+.. raw:: html
 
-Robotics engineering covers a broad spectrum of tasks composed of conceptualizing designs, developing systems, and crafting operational algorithms. Robotics engineers play a critical role in every step of the lifecycle of robots and robotic systems. Common tasks include evaluating the performance of robotic systems, identifying areas for enhancement, and conducting rigorous testing protocols to ensure compliance with industry standards prior to widespread deployment and utilization.
+    <iframe width="560" height="315"
+        src="https://youtu.be/KzGr6Osyh-w"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
 
-Robotics engineering brings together creativity, technical know-how, and problem-solving skills. It's an exciting field that studies the latest and multidisciplinary engineering technology. Whether it's creating autonomous vehicles and drones, robotic systems that work with humans in manufacturing, or cyber-physical humanoid machines, robotics engineering sets the stage for a better tomorrow where humans and machines work together seamlessly.
+About The Tutor
+-----------------
+
+.. image:: _static/Aboutme1.png
+   :alt: porfolio1
+   :width: 500px
+   :height: 803px
+.. image:: _static/Aboutme2.png
+   :alt: porfolio2
+   :width: 500px
+   :height: 803px
+
+
+
+
+
