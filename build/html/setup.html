@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>We have it under Control &mdash; Robotics Core Workshop 1.0.0 documentation</title>
+  <title>Ready, Set, Robot! &mdash; Robotics Core Workshop 1.0.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="_static/custom.css?v=a6a68382" />
@@ -21,8 +21,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Clever Gambling in Monaco" href="monte-carlo.html" />
-    <link rel="prev" title="Seeing is Believing" href="seeing.html" /> 
+    <link rel="next" title="Hello Humans" href="hello-humans.html" />
+    <link rel="prev" title="Robotics Core Workshop Documentation" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -46,16 +46,17 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="setup.html">Ready, Set, Robot!</a></li>
-<li class="toctree-l1"><a class="reference internal" href="hello-humans.html">Hello Humans</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ros2.html">Mission ROSsible</a></li>
-<li class="toctree-l1"><a class="reference internal" href="seeing.html">Seeing is Believing</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">We have it under Control</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Ready, Set, Robot!</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#setting-the-stage-installation-setup">Setting the Stage (Installation &amp; Setup)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#focus">Focus</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#learning-flow">Learning Flow</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#takeaway">Takeaway</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="hello-humans.html">Hello Humans</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ros2.html">Mission ROSsible</a></li>
+<li class="toctree-l1"><a class="reference internal" href="seeing.html">Seeing is Believing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control.html">We have it under Control</a></li>
 <li class="toctree-l1"><a class="reference internal" href="monte-carlo.html">Clever Gambling in Monaco</a></li>
 <li class="toctree-l1"><a class="reference internal" href="AI-in-Robotics.html">AI in Robotics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="side-quests.html">Real World Robotics</a></li>
@@ -75,9 +76,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">We have it under Control</li>
+      <li class="breadcrumb-item active">Ready, Set, Robot!</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/control.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/setup.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -85,66 +86,76 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="we-have-it-under-control">
-<h1>We have it under Control<a class="headerlink" href="#we-have-it-under-control" title="Link to this heading"></a></h1>
-<p><strong>Theme:</strong> <em>We Have It Under Control</em> — this week focuses on the art and science of
-<strong>robot control</strong>, where mathematical feedback transforms chaotic systems
-into stable and predictable motion.</p>
+  <section id="ready-set-robot">
+<h1>Ready, Set, Robot!<a class="headerlink" href="#ready-set-robot" title="Link to this heading"></a></h1>
+<section id="setting-the-stage-installation-setup">
+<h2>Setting the Stage (Installation &amp; Setup)<a class="headerlink" href="#setting-the-stage-installation-setup" title="Link to this heading"></a></h2>
+<p><strong>Theme:</strong> <em>Setting the Stage</em> — before we dive into robotics theory, code,
+and simulation, we ensure everyone has the right tools installed and configured.
+This week focuses on preparing development environments across <strong>Linux</strong>,
+<strong>Windows</strong>, and <strong>macOS</strong>.</p>
+</section>
 <section id="focus">
 <h2>Focus<a class="headerlink" href="#focus" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>Understand the role of control in robotics.</p></li>
-<li><p>Learn the difference between <strong>open-loop</strong> and <strong>closed-loop</strong> systems.</p></li>
-<li><p>Explore <strong>feedback control</strong> and why it is essential for robots.</p></li>
-<li><p>Implement <strong>PID controllers</strong> to track positions and trajectories.</p></li>
+<li><p>Install the necessary tools for the workshop:
+- Python 3.x, pip, and virtual environments
+- Git and GitHub setup
+- ROS 2 Humble/Foxy (Linux, Windows/macOS guidance)
+- Gazebo simulator
+- RViz2 visualization tool
+- Text editors/IDEs (VS Code recommended)</p></li>
+<li><p>Learn basic command-line usage (Linux, macOS, Windows PowerShell).</p></li>
+<li><p>Verify installations with test commands.</p></li>
 </ul>
 </section>
 <section id="learning-flow">
 <h2>Learning Flow<a class="headerlink" href="#learning-flow" title="Link to this heading"></a></h2>
 <ol class="arabic">
 <li><p><strong>Theory</strong>
-- What is control and why do robots need it?
-- Open-loop vs closed-loop systems.
-- Feedback and error correction.
-- Control laws: proportional (P), proportional-derivative (PD),</p>
-<blockquote>
-<div><p>and proportional-integral-derivative (PID).</p>
-</div></blockquote>
-<ul class="simple">
-<li><p>Stability and performance in control systems.</p></li>
-</ul>
-</li>
-<li><p><strong>Practical / Code</strong>
-- Implement a simple <strong>PD controller</strong> in Python.
-- Extend to a <strong>PID controller</strong> for improved performance.
-- Test the controller on a simulated joint or mobile robot.
-- Visualize errors converging to zero over time.</p></li>
-<li><p><strong>Simulation</strong>
-- Use <strong>Gazebo</strong> or <strong>PyBullet</strong> to simulate a robotic arm or mobile robot.
-- Apply your controller to track a reference trajectory.
-- Observe how feedback stabilizes the robot’s behavior.</p></li>
-<li><p><strong>Assignment</strong>
-- Implement and test a PID controller.
-- Compare open-loop vs closed-loop performance.
-- Document results with plots of error vs time.
-- Push code and README to GitHub, showing:</p>
+- Why Linux (Ubuntu) is the preferred OS for robotics.
+- Overview of ROS 2 distributions and system requirements.
+- Differences between Linux, Windows, and macOS setup.</p></li>
+<li><p><strong>Practical Setup</strong>
+- <strong>Linux (Ubuntu 22.04)</strong>:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>Your controller implementation</p></li>
-<li><p>Plots and results</p></li>
-<li><p>Explanation of stability improvements</p></li>
+<li><p>Install ROS 2 Humble from apt repositories.</p></li>
+<li><p>Install Gazebo and RViz2.</p></li>
+<li><p>Configure environment variables in <cite>.bashrc</cite>.</p></li>
 </ul>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>Windows</strong>:
+- Install Linux on windows using WSL is the best route but we can still run it straight on windows
+- Install Python and VS Code.
+- Install ROS 2 binaries for Windows (optional).
+- Set up PowerShell for GitHub and Python projects.</p></li>
+<li><p><strong>macOS</strong>:
+- Install Homebrew.
+- Install Python, Git, and dependencies.
+- Guidance for Docker-based ROS 2/Gazebo setup.</p></li>
+</ul>
+</li>
+<li><p><strong>Verification</strong>
+- Run <cite>ros2 run demo_nodes_cpp talker</cite> and <cite>ros2 run demo_nodes_py listener</cite>.
+- Launch <cite>rviz2</cite> successfully.
+- Run a sample Gazebo world.</p></li>
+<li><p><strong>Assignment</strong>
+- Install all required tools on your machine.
+- Verify by running ROS 2 talker/listener demo.
+- Push a screenshot of your working RViz2 session to your GitHub repo</p>
+<blockquote>
+<div><p>(with a short README describing your setup steps).</p>
 </div></blockquote>
 </li>
 </ol>
 </section>
 <section id="takeaway">
 <h2>Takeaway<a class="headerlink" href="#takeaway" title="Link to this heading"></a></h2>
-<p>By the end of this week, students will understand how control transforms
-<strong>commands into reliable motion</strong>. They will learn that without feedback,
-robots drift and fail, but with control, robots execute tasks precisely.</p>
-<p>This week gives students the tools to <strong>tame dynamics and guide robots</strong> —
-proving once and for all that <em>we have it under control</em>.</p>
+<p>By the end of this week, all students will have a <strong>fully working development environment</strong>
+on Linux, Windows, or macOS. This ensures everyone starts on equal footing, ready to
+focus on learning robotics rather than troubleshooting installations.</p>
 </section>
 </section>
 
@@ -152,8 +163,8 @@ proving once and for all that <em>we have it under control</em>.</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="seeing.html" class="btn btn-neutral float-left" title="Seeing is Believing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="monte-carlo.html" class="btn btn-neutral float-right" title="Clever Gambling in Monaco" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Robotics Core Workshop Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="hello-humans.html" class="btn btn-neutral float-right" title="Hello Humans" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

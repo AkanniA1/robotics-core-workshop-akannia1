@@ -115,6 +115,7 @@ Workshop Schedule
 
    :hidden:
 
+   setup
    index
    hello-humans
    ros2
