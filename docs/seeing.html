@@ -1,0 +1,172 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seeing is Believing &mdash; Robotics Core Workshop 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=a6a68382" />
+      <link rel="stylesheet" type="text/css" href="_static/fonts.css?v=5583d106" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=8d563738"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="We have it under Control" href="control.html" />
+    <link rel="prev" title="Mission ROSsible" href="ros2.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Robotics Core Workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="hello-humans.html">Hello Humans</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ros2.html">Mission ROSsible</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Seeing is Believing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#focus">Focus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#learning-flow">Learning Flow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#takeaway">Takeaway</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="control.html">We have it under Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="monte-carlo.html">Clever Gambling in Monaco</a></li>
+<li class="toctree-l1"><a class="reference internal" href="AI-in-Robotics.html">AI in Robotics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="side-quests.html">Side Quests</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Robotics Core Workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Seeing is Believing</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/seeing.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="seeing-is-believing">
+<h1>Seeing is Believing<a class="headerlink" href="#seeing-is-believing" title="Link to this heading"></a></h1>
+<p><strong>Theme:</strong> <em>Seeing is Believing</em> — this week we dive into <strong>RViz2</strong> and <strong>Gazebo</strong>,
+where theory and code come alive through visualization and simulation.</p>
+<section id="focus">
+<h2>Focus<a class="headerlink" href="#focus" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Learn the difference between <strong>visualization (RViz2)</strong> and <strong>simulation (Gazebo)</strong>.</p></li>
+<li><p>Understand why robotics engineers simulate before building.</p></li>
+<li><p>URDF Basics</p></li>
+<li><p>Import 3D models</p></li>
+<li><p>Robot visualization</p></li>
+<li><p>Robot simulation</p></li>
+<li><p>Map and World Building</p></li>
+</ul>
+</section>
+<section id="learning-flow">
+<h2>Learning Flow<a class="headerlink" href="#learning-flow" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p><strong>Theory</strong>
+- Why simulation is critical in robotics.
+- Visualization vs. simulation.
+- Introduction to URDF (Unified Robot Description Format).
+- Digital twin concepts in robotics.</p></li>
+</ol>
+<p>2. <strong>Practical / Code</strong>
+- Write a basic URDF for a simple robot.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Import 3D models into Gazebo.</p></li>
+<li><p>Visualize frames, sensors, and trajectories in RViz2.</p></li>
+<li><p>Move a robot in simulation and observe transforms + states in RViz.</p></li>
+<li><p>Launch a robot simulation in Gazebo.</p></li>
+<li><p>Create a simple custom world with obstacles and free space.</p></li>
+<li><p>Launch a robot model in <strong>Gazebo</strong>.</p></li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p><strong>Assignment</strong>
+- Load a robot
+- Visualize sensors and coordinate frames in <strong>RViz2</strong>.
+- Write a short README explaining how simulation matches theory.</p></li>
+</ol>
+</section>
+<section id="takeaway">
+<h2>Takeaway<a class="headerlink" href="#takeaway" title="Link to this heading"></a></h2>
+<p>By the end of this week, students will understand how to move from
+<strong>robot descriptions (URDF)</strong> to <strong>visualization (RViz2)</strong> and
+<strong>simulation (Gazebo)</strong>. They will be able to create simple robots,
+visualize their states, and place them in custom worlds — proving that
+in robotics, truly, <em>Seeing is Believing</em>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="ros2.html" class="btn btn-neutral float-left" title="Mission ROSsible" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="control.html" class="btn btn-neutral float-right" title="We have it under Control" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Bakel-Bakel.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

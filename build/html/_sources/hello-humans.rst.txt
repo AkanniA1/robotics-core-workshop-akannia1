@@ -1,4 +1,4 @@
-Week 1: Introduction to Robotics
+Hello Humans
 =============================
 
 .. image:: _static/roadmap.png
@@ -57,7 +57,7 @@ Real-world applications:
 Think of dynamics as understanding the "physics problem" the robot faces, while control is actively solving that problem in real-time.
 
 
-PERCEPTION AND PLANNING
+Perception and Planning
 ---------------------------------
 
 What it is: Helping robots see, understand their environment, and plan their actions.

@@ -1,4 +1,4 @@
-Week 1: Introduction to Robotics
+Hello Humans
 =============================
 
 .. image:: _static/roadmap.png

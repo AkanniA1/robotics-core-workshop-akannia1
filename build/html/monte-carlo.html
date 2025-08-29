@@ -1,0 +1,194 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clever Gambling in Monaco &mdash; Robotics Core Workshop 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=a6a68382" />
+      <link rel="stylesheet" type="text/css" href="_static/fonts.css?v=5583d106" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=8d563738"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="AI in Robotics" href="AI-in-Robotics.html" />
+    <link rel="prev" title="We have it under Control" href="control.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Robotics Core Workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="hello-humans.html">Hello Humans</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ros2.html">Mission ROSsible</a></li>
+<li class="toctree-l1"><a class="reference internal" href="seeing.html">Seeing is Believing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control.html">We have it under Control</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Clever Gambling in Monaco</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#focus">Focus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#learning-flow">Learning Flow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#takeaway">Takeaway</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="AI-in-Robotics.html">AI in Robotics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="side-quests.html">Side Quests</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Robotics Core Workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Clever Gambling in Monaco</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/monte-carlo.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="clever-gambling-in-monaco">
+<h1>Clever Gambling in Monaco<a class="headerlink" href="#clever-gambling-in-monaco" title="Link to this heading"></a></h1>
+<p><strong>Theme:</strong> <em>Clever Gambling in Monaco</em> — this week introduces
+<strong>Monte Carlo Localization (MCL)</strong>, where probability meets robotics.
+Robots “gamble” with particles to find out where they really are.</p>
+<section id="focus">
+<h2>Focus<a class="headerlink" href="#focus" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Understand the principles of <strong>Monte Carlo Localization (MCL)</strong>.</p></li>
+<li><p>Learn how particle filters estimate a robot’s pose.</p></li>
+<li><p>Explore the connection between probability, motion models, and sensor models.</p></li>
+<li><p>Implement MCL in Python and compare it with ROS 2’s <strong>AMCL</strong> package.</p></li>
+</ul>
+</section>
+<section id="learning-flow">
+<h2>Learning Flow<a class="headerlink" href="#learning-flow" title="Link to this heading"></a></h2>
+<ol class="arabic">
+<li><p><strong>Theory</strong>
+- The localization problem: <em>“Where am I?”</em>
+- Monte Carlo method: random sampling for probabilistic estimation.
+- Particle filters:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Initialization</p></li>
+<li><p>Motion update</p></li>
+<li><p>Sensor update</p></li>
+<li><p>Resampling</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p>Why it’s called <em>Monte Carlo</em> (link to casino roulette analogy).</p></li>
+</ul>
+</li>
+<li><p><strong>Practical / Code</strong>
+- Implement a custom <strong>Python MCL</strong> with NumPy:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Initialize particles in free space</p></li>
+<li><p>Propagate with a noisy motion model</p></li>
+<li><p>Weight particles based on sensor likelihood</p></li>
+<li><p>Resample to focus on probable poses</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p>Visualize the particle cloud converging on the robot’s location.</p></li>
+</ul>
+</li>
+<li><p><strong>ROS 2 Integration</strong>
+- Use <strong>Nav2 AMCL</strong> for real-world localization.
+- Launch AMCL with a 2D occupancy map.
+- Visualize particle clouds in RViz2.
+- Compare results from your custom Python implementation.</p></li>
+<li><p><strong>Assignment</strong>
+- Write a Python implementation of MCL.
+- Run <strong>Nav2 AMCL</strong> with TurtleBot3 (or another robot) in Gazebo.
+- Push results, code, and a short README to GitHub:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Explanation of MCL</p></li>
+<li><p>Your implementation</p></li>
+<li><p>Screenshots of ROS 2 AMCL in action</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="takeaway">
+<h2>Takeaway<a class="headerlink" href="#takeaway" title="Link to this heading"></a></h2>
+<p>By the end of this week, students will understand how robots <strong>use probability to localize</strong>.
+They will see how random “gambling” with particles transforms into accurate localization,
+both in a <strong>custom Python implementation</strong> and in <strong>ROS 2 AMCL</strong>.</p>
+<p>This week brings to life the connection between probability theory, code,
+and real-world robotics — demonstrating that sometimes, <strong>gambling is clever</strong>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="control.html" class="btn btn-neutral float-left" title="We have it under Control" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="AI-in-Robotics.html" class="btn btn-neutral float-right" title="AI in Robotics" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Bakel-Bakel.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

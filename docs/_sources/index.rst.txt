@@ -110,9 +110,16 @@ Workshop Schedule
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    :hidden:
 
-   week1
+   index
+   hello-humans
+   ros2
+   seeing
+   control
+   monte-carlo
+   AI-in-Robotics
+   side-quests
