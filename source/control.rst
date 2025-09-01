@@ -5,6 +5,11 @@ We have it under Control
 **robot control**, where mathematical feedback transforms chaotic systems 
 into stable and predictable motion.
 
+.. image:: _static/arm.gif
+   :alt: Example GIF
+   :align: center
+
+
 Focus
 -----
 

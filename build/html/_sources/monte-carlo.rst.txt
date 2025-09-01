@@ -5,6 +5,11 @@ Clever Gambling in Monaco
 **Monte Carlo Localization (MCL)**, where probability meets robotics. 
 Robots "gamble" with particles to find out where they really are.
 
+.. image:: _static/mcl.gif
+   :alt: Example GIF
+   :align: center
+
+
 Focus
 -----
 

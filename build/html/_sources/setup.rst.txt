@@ -9,6 +9,10 @@ and simulation, we ensure everyone has the right tools installed and configured.
 This week focuses on preparing development environments across **Linux**, 
 **Windows**, and **macOS**.
 
+.. image:: _static/trajectory.gif
+   :alt: Example GIF
+   :align: center
+
 Focus
 -----
 
@@ -31,8 +35,8 @@ Learning Flow
    - Differences between Linux, Windows, and macOS setup.
 
 2. **Practical Setup**
-   - **Linux (Ubuntu 22.04)**:
-     - Install ROS 2 Humble from apt repositories.
+   - **Linux**:
+     - Install ROS 2 from apt repositories.
      - Install Gazebo and RViz2.
      - Configure environment variables in `.bashrc`.
    - **Windows**:
@@ -52,6 +56,7 @@ Learning Flow
    - Run a sample Gazebo world.
 
 4. **Assignment**
+
    - Install all required tools on your machine.
    - Verify by running ROS 2 talker/listener demo.
    - Push a screenshot of your working RViz2 session to your GitHub repo 

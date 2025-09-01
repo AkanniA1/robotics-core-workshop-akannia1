@@ -5,6 +5,10 @@ Mission ROSsible
 **Robot Operating System 2 (ROS 2)**, the middleware that powers modern robotics. 
 It may look complex, but with the right guidance, every mission in ROS 2 is possible.
 
+.. image:: _static/ros.gif
+   :alt: Example GIF
+   :align: center
+
 Focus
 -----
 

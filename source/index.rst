@@ -116,6 +116,7 @@ Workshop Schedule
    :hidden:
 
    setup
+   git
    index
    hello-humans
    ros2

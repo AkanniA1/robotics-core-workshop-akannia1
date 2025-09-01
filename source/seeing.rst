@@ -4,6 +4,15 @@ Seeing is Believing
 **Theme:** *Seeing is Believing* — this week we dive into **RViz2** and **Gazebo**, 
 where theory and code come alive through visualization and simulation.
 
+.. image:: _static/gazebo-illustration.gif
+   :alt: Example GIF
+   :align: center
+
+
+
+                         
+
+
 Focus
 -----
 
