@@ -18,7 +18,7 @@ Is this workshop worth it?
 -----------------
 Find out in this brief overview below
 
-.. youtube:: KzGr6Osyh-w
+.. youtube:: 7VjyUJg6u-Q
    :width: 640
    :height: 360
 
