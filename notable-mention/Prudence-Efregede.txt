@@ -1,0 +1,2 @@
+Name, Linkedin, Role
+Prudence Efregede, https://www.linkedin.com/in/prudence-efregede-366310224/ , Robotics Engineer
