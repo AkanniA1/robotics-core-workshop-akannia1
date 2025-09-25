@@ -1,0 +1,2 @@
+Name, Linkedin, Role
+Isaac Otori, www.linkedin.com/in/isaacotori , Student
