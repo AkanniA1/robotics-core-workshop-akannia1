@@ -1,0 +1,2 @@
+Name, Linkedin-url, Role
+Oni Oluwole, https://www.linkedin.com/in/oluwole-oni/, Future Robotics Engineer 💪(Current Web developer)
